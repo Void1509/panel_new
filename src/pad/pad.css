@@ -1,0 +1,15 @@
+button {
+	background-color: black;
+	background-image: none;
+	font-size:24px;
+	animation-duration:0s;
+	transition-duration:0s;
+	text-shadow: none;
+	border-radius: 20px;
+}
+button:active {
+	background-image: none;
+	background-color: gray;
+	font-size:24px;
+	text-shadow: 0px 2px 2px black;
+}

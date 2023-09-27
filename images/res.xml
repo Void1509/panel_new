@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/bunker">      
+	  <file>form0/bunkers.png</file>
+	  <file>form0/fansl.png</file>
+	  <file>form0/fansr.png</file>
+	  <file>form0/fanslred.png</file>
+	  <file>form0/fansrred.png</file>
+	  <file>form0/gears.png</file>
+	  <file>form0/gearsblue.png</file>
+	  <file>form0/gearsred.png</file>
+	  <file>form0/plug.png</file>
+	  <file>form0/plugupdown.png</file>
+	  <file>form0/plug1.png</file>
+	  <file>form0/grunt.png</file>
+  </gresource>
+</gresources>
+

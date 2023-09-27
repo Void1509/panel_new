@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkPopover" id="padWin">
+    <property name="width-request">300</property>
+    <property name="height-request">300</property>
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="position">bottom</property>
+    <property name="modal">False</property>
+    <property name="transitions-enabled">False</property>
+    <property name="constrain-to">none</property>
+    <child>
+      <!-- n-columns=4 n-rows=4 -->
+      <object class="GtkGrid" id="pad_grid">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="row-homogeneous">True</property>
+        <property name="column-homogeneous">True</property>
+        <child>
+          <object class="GtkButton" id="btn_key0">
+            <property name="label" translatable="yes">7</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <style>
+              <class name="mybtnclass"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key1">
+            <property name="label" translatable="yes">8</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key2">
+            <property name="label" translatable="yes">9</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key3">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <property name="always-show-image">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key4">
+            <property name="label" translatable="yes">4</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key5">
+            <property name="label" translatable="yes">5</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key6">
+            <property name="label" translatable="yes">6</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key7">
+            <property name="label" translatable="yes">0</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key8">
+            <property name="label" translatable="yes">1</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key9">
+            <property name="label" translatable="yes">2</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key10">
+            <property name="label" translatable="yes">3</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key11">
+            <property name="label" translatable="yes">0</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key12">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <property name="image-position">top</property>
+            <property name="always-show-image">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key13">
+            <property name="label" translatable="yes">0</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key14">
+            <property name="label" translatable="yes">,</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_key15">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="focus-on-click">False</property>
+            <property name="receives-default">False</property>
+            <property name="margin-start">2</property>
+            <property name="margin-end">2</property>
+            <property name="margin-top">2</property>
+            <property name="margin-bottom">2</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <property name="image-position">top</property>
+            <property name="always-show-image">True</property>
+          </object>
+          <packing>
+            <property name="left-attach">3</property>
+            <property name="top-attach">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,8 @@
+let projName=fnamemodify(vimproj->fnamemodify(':h'), ':t:r')
+echo "Project name: ".projName
+
+let incpath=finddir('inc', '.;home')
+if !incpath->empty()
+	let &path.=incpath
+endif
+
